@@ -1,4 +1,4 @@
-# 🔎 Website RAG - Question Answering
+# 🔎 Website RAG - Answer questions about a website content using RAG
 
 This streamlit application lets you interactively ask questions about any website using a Retrieval-Augmented Generation (RAG) pipeline.
 
@@ -62,7 +62,7 @@ website-rag/
 ```
 
 
-## How It Works — RAG Pipeline
+## How It Works - RAG Pipeline
 
 1. **Load Website:**
    Extract text content using LangChain's `WebBaseLoader`.
