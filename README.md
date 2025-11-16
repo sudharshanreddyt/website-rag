@@ -91,9 +91,9 @@ website-rag/
 2. Click **Load Website** to process and index the content.
 
 3. Ask any question related to the page:
-   - *"Explain the architecture of AI agents"*
-   - *"What are the different types of of AI agents"*
-   - *"How does AI agents work ?"*
+   - *Explain the architecture of AI agents*
+   - *What are the different types of of AI agents*
+   - *How does AI agents work ?*
 
 4. The app will stream the answer in real time based on the website's information.
 
