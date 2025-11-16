@@ -49,7 +49,10 @@ http://localhost:8501
 ```
 
 ## For running the image using Docker
+
+```bash
 docker run -p 8501:8501 --env GROQ_API_KEY=your_key_here website-rag
+```
 
 ## Project Structure
 
