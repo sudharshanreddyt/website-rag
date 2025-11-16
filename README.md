@@ -4,7 +4,6 @@ This streamlit application lets you interactively ask questions about any websit
 
 Simply load a URL, ask your question, and watch the AI stream the answer in real time - based strictly on the website's content.
 
----
 
 ## Installation
 
@@ -25,9 +24,8 @@ uv sync
 
 This will create a virtual environment and install the libraries specified in `pyproject.toml`.
 
----
 
-## 🔑 Environment Variables
+### 3. Environment Variables
 
 Create a `.env` file in the project root:
 
@@ -35,9 +33,8 @@ Create a `.env` file in the project root:
 GROQ_API_KEY=your_groq_api_key_here
 ```
 
----
 
-## ▶️ Running the App
+### 4. Running the App
 
 Start the Streamlit UI:
 
@@ -51,9 +48,8 @@ The app will open automatically at:
 http://localhost:8501
 ```
 
----
 
-## Project Structure
+### 5. Project Structure
 
 ```
 website-rag/
@@ -65,7 +61,6 @@ website-rag/
 └── .env                   # for storing API keys and secrets
 ```
 
----
 
 ## How It Works — RAG Pipeline
 
@@ -84,26 +79,24 @@ website-rag/
 5. **Retrieve Relevant Context:**
    Fetches the most relevant chunks based on your query.
 
-6. **Generate Answer (OpenAI LLM form Groq):**
+6. **Generate Answer (OpenAI LLM from Groq):**
    Streams a final answer that uses only the retrieved website content.
 
----
 
 ## Example Usage
 
 1. Enter a URL, such as:
-   `https://www.geeksforgeeks.org/artificial-intelligence/agents-artificial-intelligence/`
+   - `https://www.geeksforgeeks.org/artificial-intelligence/agents-artificial-intelligence/`
 
 2. Click **Load Website** to process and index the content.
 
 3. Ask any question related to the page:
-   *“Explain the architecture of AI agents”*
-   *“What are the different types of of AI agents”*
-   *“How does AI agents work ?”*
+   - "Explain the architecture of AI agents"*
+   - "What are the different types of of AI agents"*
+   - "How does AI agents work ?"*
 
 4. The app will stream the answer in real time based on the website's information.
 
----
 
 ## Sample Outputs
 ![Sample_Output1](/outputs/output1.png)
