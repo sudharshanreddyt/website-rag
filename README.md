@@ -16,7 +16,7 @@ git clone https://github.com/sudharshanreddyt/website-rag.git
 cd website-rag
 ```
 
-### 2. Install dependencies using uv
+## 2. Install dependencies using uv
 
 ```bash
 uv sync
@@ -25,7 +25,7 @@ uv sync
 This will create a virtual environment and install the libraries specified in `pyproject.toml`.
 
 
-### 3. Environment Variables
+## 3. Environment Variables
 
 Create a `.env` file in the project root:
 
@@ -34,7 +34,7 @@ GROQ_API_KEY=your_groq_api_key_here
 ```
 
 
-### 4. Running the App
+## 4. Running the App
 
 Start the Streamlit UI:
 
@@ -49,7 +49,7 @@ http://localhost:8501
 ```
 
 
-### 5. Project Structure
+## 5. Project Structure
 
 ```
 website-rag/
